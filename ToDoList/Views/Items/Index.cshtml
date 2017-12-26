@@ -6,6 +6,7 @@
     </head>
     <body>
         <h2>To Do List</h2>
+        <p>@Html.ActionLink("Add new item", "Create")</p>
         <h4>@Html.DisplayNameFor(model => model.Description)</h4>
         <ul>
             @foreach(var listItem in Model)
